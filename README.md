@@ -1,5 +1,7 @@
 # Assembly-Test programs
 
+Assembly codes of simple operations.
+
 
 Machine code is very hard to follow because it uses binary code to represent the instructions. To provide a more human friendly version of machine code, assembly language is used.
 An assembly language statement is a line of text that translates into a single machine instruction.
