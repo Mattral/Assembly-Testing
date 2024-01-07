@@ -21,5 +21,3 @@ then labels and assembler directives and finally the assembly language itself.
 Try changing the program to see what code it produces.
 */
 
-
-
