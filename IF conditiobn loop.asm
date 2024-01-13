@@ -7,6 +7,7 @@
 ;  """"""""""""""""""""""""""""""""
 
 
+
 Assembly           Machine
 Language           Code
 MOV A,[0]          3e 00 00     ; A=x
