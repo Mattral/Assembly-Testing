@@ -4,7 +4,7 @@
 
 ;  x=y*(y+z);
 
-;  Assume x,y and z are stored in memory locations 0,1 and 2 and there are general purpose registers called A,B,C...etc
+;  Assume x,y and z are stored in memory locations 0,1 and 2 and there are general purpose registers called A,B,C... etc
 
 ;  """"""""""""""""""""""""""""""""
 ;  """"""""""""""""""""""""""""""""
