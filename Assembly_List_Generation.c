@@ -1,3 +1,9 @@
+/*
+The first column is a line number, next is a byte offset, next is the machine code, 
+then labels and assembler directives and finally the assembly language itself. 
+Try changing the program to see what code it produces.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,11 +22,7 @@ void main(int argc[],char *argv[]) {
    system(s);
 } 
 
-/*
-The first column is a line number, next is a byte offset, next is the machine code, 
-then labels and assembler directives and finally the assembly language itself. 
-Try changing the program to see what code it produces.
-*/
+
 
 
 
