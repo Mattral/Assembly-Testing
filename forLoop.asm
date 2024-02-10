@@ -8,8 +8,10 @@
 ;  """"""""""""""""""""""""""""""""
 ;  """"""""""""""""""""""""""""""""
 
-Assembly         
-Language
+
+;Assembly         
+;Language
+
 MOV C,#0           ; i=0
 MOV B,[score]      
 startloop:
