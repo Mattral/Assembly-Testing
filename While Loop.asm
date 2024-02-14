@@ -23,3 +23,4 @@ start:
  MOV [1],A        4e 00 01
  JMP start        fc e9
 endloop:
+
