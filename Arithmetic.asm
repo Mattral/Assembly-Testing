@@ -18,4 +18,3 @@ MULT A,B         9f       ; A=A*B
 MOV [0],A        4e 00 00 ; x=A
 
 ;  The 3e,3f,8c,9f and 4e are binary codes that contain the operation and registers for the instruction.
-
