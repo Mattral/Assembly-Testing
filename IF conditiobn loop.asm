@@ -17,5 +17,3 @@ JMP NZ,noadd       Fe 04        ; if (A==0)
 ADD [0],#1         41 00 00 01  ;   x=x+1 
 noadd:            
 ADD [1],#1         41 00 01 01  ; y=y+1
-
-
