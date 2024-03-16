@@ -8,8 +8,8 @@
 ;  """"""""""""""""""""""""""""""""
 ;  """"""""""""""""""""""""""""""""
 
-Assembly         Machine
-Language         Code
+;Assembly         Machine
+;Language         Code
 start:
  MOV A,[0]        3e 00 00
  SUB A,#4         58 04
@@ -21,3 +21,4 @@ start:
  MOV [1],A        4e 00 01
  JMP start        fc e9
 endloop:
+
