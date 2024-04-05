@@ -21,3 +21,4 @@ void main(int argc[],char *argv[]) {
    sprintf(s,"gcc -O %s.c -Wa,-aldn",argv[0]);     
    system(s);
 } 
+
