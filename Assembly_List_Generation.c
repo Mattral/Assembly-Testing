@@ -8,17 +8,22 @@ Try changing the program to see what code it produces.
 #include <stdlib.h>
 
 int function() {
-int i,sum;
-   sum=0;
-   for(i=0;i!=100;i++) 
-      sum=sum+i;
-    return sum;
-} 
+    int i, sum = 0;
+    for (i = 0; i < 100; i++) {
+        sum += i;
+    }
+    return sum;
+}
 
-void main(int argc[],char *argv[]) {
-   char s[256];
-
-   sprintf(s,"gcc -O %s.c -Wa,-aldn",argv[0]);     
-   system(s);
-} 
-
+int main(int argc, char *argv[]) {
+    if (argc > 0) {
+        char s[256];
+        // Ensure we don't exceed the buffer; consider the format string and potential space for the command
+        snprintf(s, sizeof(s), "gcc -O -o %s %s.c -Wa,-aldn", argv[0], argv[0]); // Fixed potential buffer overflow issue
+        system(s); // Note: using system() is generally not recommended for security reasons
+    } else {
+        printf("Usage: %s <source_file_without_extension>\n", argv[0]);
+        return 1;
+    }
+    return 0;
+}
