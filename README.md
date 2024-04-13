@@ -1,4 +1,4 @@
-# Assembly-Test programs
+# Assembly demo programs
 
 Assembly programs of simple operations like loops and conditions.
 
